@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Trần An Vy | Ứng tuyển Trợ giảng</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#fff8fb;
+color:#444;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:50px;
+background:linear-gradient(135deg,#ffe4f1,#fff8fc);
+}
+
+.hero-content{
+max-width:1100px;
+display:flex;
+gap:60px;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.avatar{
+width:260px;
+border-radius:25px;
+box-shadow:0 15px 35px rgba(0,0,0,0.1);
+}
+
+.intro{
+flex:1;
+}
+
+.intro h1{
+font-size:3rem;
+color:#d95c96;
+}
+
+.intro h2{
+margin-top:10px;
+font-weight:400;
+}
+
+.intro p{
+margin-top:20px;
+line-height:1.9;
+}
+
+.button{
+display:inline-block;
+margin-top:25px;
+padding:14px 30px;
+background:#e98ab8;
+color:white;
+text-decoration:none;
+border-radius:30px;
+transition:.3s;
+}
+
+.button:hover{
+transform:translateY(-3px);
+}
+
+section{
+max-width:1100px;
+margin:auto;
+padding:80px 20px;
+}
+
+h2.section-title{
+text-align:center;
+margin-bottom:40px;
+color:#d95c96;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card h3{
+color:#d95c96;
+margin-bottom:15px;
+}
+
+details{
+background:#fff0f7;
+padding:15px;
+border-radius:15px;
+}
+
+summary{
+cursor:pointer;
+font-weight:600;
+}
+
+.university{
+background:white;
+padding:20px;
+margin-bottom:15px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.contact{
+text-align:center;
+background:#ffeef6;
+padding:60px;
+}
+
+.contact p{
+margin:10px 0;
+}
+
+.highlight{
+font-weight:700;
+color:#d95c96;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<img src="TRAN-AN-VY.jpg" alt="Trần An Vy" class="avatar">
+
+<div class="intro">
+
+<h1>Trần An Vy</h1>
+
+<h2>Ứng tuyển vị trí Trợ giảng</h2>
+
+<p>
+
+Xin chào trung tâm!
+
+Em là Trần An Vy, học sinh đã tốt nghiệp lớp 12 với niềm yêu thích dành cho giáo dục, ngoại ngữ và các hoạt động cộng đồng.
+
+Hiện em đã nhận được thư mời nhập học từ bốn trường đại học thuộc nhóm Go8 của Úc và mong muốn tìm kiếm cơ hội trợ giảng trong mùa hè để phát triển kỹ năng giao tiếp, làm việc nhóm và hỗ trợ học sinh trong môi trường giáo dục chuyên nghiệp.
+
+</p>
+
+<a href="#thanh-tich" class="button">Xem thành tích</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="thanh-tich">
+
+<h2 class="section-title">Thành tích học tập</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>IELTS Overall 8.0</h3>
+
+<details>
+
+<summary>Xem chi tiết</summary>
+
+<br>
+
+Reading: 9.0 <br>
+Listening: 8.5 <br>
+Writing: 7.5 <br>
+Speaking: 7.0
+
+<br><br>
+
+Tất cả các kỹ năng đều trên 6.5.
+
+</details>
+
+</div>
+
+<div class="card">
+
+<h3>SAT 1520</h3>
+
+<details>
+
+<summary>Xem chi tiết</summary>
+
+<br>
+
+Reading & Writing: 730 <br>
+Math: 790
+
+</details>
+
+</div>
+
+<div class="card">
+
+<h3>Tiếng Anh học đường</h3>
+
+<p>
+
+Điểm trung bình môn Tiếng Anh trong suốt 12 năm học luôn trên
+<span class="highlight">9.4</span>.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Thư mời nhập học quốc tế</h2>
+
+<div class="university">
+🎓 Monash University
+</div>
+
+<div class="university">
+🎓 University of Sydney
+</div>
+
+<div class="university">
+🎓 University of Melbourne
+</div>
+
+<div class="university">
+🎓 UNSW Sydney
+</div>
+
+<p style="margin-top:25px;text-align:center;line-height:1.8;">
+
+Đã nhận thư mời nhập học ngành Commerce và Pharmaceutical Science (Honours) từ bốn trường đại học thuộc nhóm Go8 – nhóm các đại học nghiên cứu hàng đầu tại Úc.
+
+</p>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Kinh nghiệm lãnh đạo</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Bí thư Chi đoàn</h3>
+
+<p>
+
+Tham gia tổ chức các hoạt động tập thể, chương trình Đoàn và hỗ trợ kết nối học sinh với nhà trường.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Lớp trưởng</h3>
+
+<p>
+
+Đảm nhiệm vai trò lớp trưởng xuyên suốt 12 năm học tập, hỗ trợ giáo viên, điều phối lớp học và phát triển kỹ năng lãnh đạo.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Hoạt động ngoại khóa</h2>
+
+<div class="card">
+
+<p>
+
+Em rất tích cực tham gia các hoạt động học thuật, phong trào thanh niên, hoạt động cộng đồng và các chương trình ngoại khóa trong và ngoài nhà trường.
+
+</p>
+
+<br>
+
+<a href="HDNK.pdf" class="button">
+Xem hồ sơ hoạt động ngoại khóa
+</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Mục tiêu</h2>
+
+<div class="card">
+
+<p style="line-height:2">
+
+Em mong muốn tìm kiếm một vị trí trợ giảng trong mùa hè để được học hỏi các kĩ năng cần thiết để chuẩn bị cho du học từ các giáo viên giàu kinh nghiệm, đồng thời hỗ trợ các em học sinh nhỏ hơn dựa trên kinh nghiệm của bản thân trong quá trình học tập.
+
+Bên cạnh việc tích lũy kinh nghiệm làm việc thực tế trước khi bước vào môi trường đại học quốc tế, em cũng hy vọng có thể đóng góp năng lượng, tinh thần trách nhiệm và khả năng tiếng Anh của mình cho tập thể.
+
+Em sẵn sàng tham gia cả các vị trí có lương hoặc tình nguyện không lương để phát triển bản thân và tạo ra giá trị tích cực cho môi trường giáo dục.
+
+</p>
+
+</div>
+
+</section>
+
+<footer class="contact">
+
+<h2>Liên hệ</h2>
+
+<p>Email: trananvy1234@gmail.com</p>
+
+<p>Số điện thoại: 0328535688</p>
+
+<p>Facebook: facebook.com/yourprofile</p>
+
+</footer>
+
+</body>
+</html>
